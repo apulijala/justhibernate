@@ -58,9 +58,7 @@ public class PlainHibernateTest {
                 ).list();
 
       System.out.println("size of messages " + messages.size());
-
       System.out.println(" Message is " + messages.get(0).getText());
-
 
     }
 
